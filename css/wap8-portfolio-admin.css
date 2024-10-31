@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Portfolio Box
+--------------------------------------------------------------*/
+.wap8-portfolio-box {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin: 20px 0;
+    padding: 5px 20px 5px;
+    position: relative;
+}
+
+.wap8-portfolio-doc-wrap .wap8-portfolio-box {
+    padding: 5px 20px 20px;
+}
+
+/*--------------------------------------------------------------
+# WordPress Dashboard Overrides
+--------------------------------------------------------------*/
+.wap8-portfolio-box #poststuff h2 {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 1.3em;
+    margin: 1em 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wap8-portfolio-box #poststuff h2:first-of-type {
+    margin-top: 0;
+}
+
+.wap8-portfolio-settings-form input[type=text] {
+    width: 25em;
+}
+
+.wap8-portfolio-settings-form h2 {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1em;
+}
